@@ -21,7 +21,7 @@ public class AAO extends AppCompatActivity {
         //hello
         init();
 
-
+        //go to the activity
         one.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

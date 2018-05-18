@@ -18,7 +18,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.dell.pinnacle.R;
 import com.example.dell.pinnacle.clients.ApiClient;
 import com.example.dell.pinnacle.clients.RetroApi;
