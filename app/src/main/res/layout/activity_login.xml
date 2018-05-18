@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:id="@+id/r"
+    tools:context="com.example.dell.pinnacle.activities.Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:fontFamily="@font/arimo"
+                android:layout_height="wrap_content"
+                android:text="Nice to See You Again!!"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="30dp"
+                android:textSize="20sp"
+                android:textColor="@color/splashColor"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                >
+
+               <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_email"
+                    android:layout_width="match_parent"
+                    android:textColorHint="#fff"
+                   android:paddingLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="50dp">
+
+                   <EditText
+                       android:id="@+id/editTextMobile"
+                       android:backgroundTint="#fff"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="#fff"
+                       android:fontFamily="@font/arimo"
+                       android:hint="Mobile Number"
+                       android:inputType="phone" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:textColorHint="#fff"
+                    android:paddingLeft="10dp"
+                    android:layout_height="50dp"
+                    app:passwordToggleTint="#fff"
+                    android:layout_marginBottom="20dp"
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <EditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="match_parent"
+                        android:textColor="#fff"
+                        android:fontFamily="@font/arimo"
+                        android:backgroundTint="#fff"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                       />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Go"
+                    android:textColor="#fff"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/btnborder"
+                    android:id="@+id/login"
+                    android:layout_marginBottom="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Password?"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:fontFamily="@font/arimo"
+                    android:id="@+id/forgetpassword"
+                    android:textAlignment="viewEnd"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/regtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:contextClickable="true"
+                android:fontFamily="@font/arimo"
+                android:gravity="bottom"
+                android:text="Not One of Us? Sign Up here!!"
+                android:textAlignment="center"
+                android:textColor="@color/splashColor"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeBlog"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.pinnacle.activities.BlogText">
+
+
+    <ImageButton
+        android:id="@+id/closeBlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:elevation="1dp"
+        android:layout_margin="5dp"
+        android:background="@color/splashColor"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/close" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/closeBlog"
+        android:layout_marginEnd="11dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/text_of_blog"
+                android:layout_width="match_parent"
+                android:textAlignment="viewStart"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="2sp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/arimo"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

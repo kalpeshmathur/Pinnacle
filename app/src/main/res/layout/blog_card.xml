@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:id="@+id/blog_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:background="@drawable/whitecolorandborder"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/blog"
+                android:id="@+id/imageView"
+                android:layout_margin="4dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBlog"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="A Blog For Your Help...."
+                android:layout_toRightOf="@+id/imageView"
+                android:ellipsize="end"
+                android:maxLines="3"
+
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

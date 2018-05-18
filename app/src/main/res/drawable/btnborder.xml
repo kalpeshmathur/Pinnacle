@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Border Color -->
+    <stroke android:width="2dp" android:color="@color/btnclr" />
+    <solid android:color="@color/btnclr"></solid>
+  <!--  <gradient
+        android:angle="45"
+        android:endColor="#87CEEB"
+        android:centerColor="#768087"
+        android:startColor="#000"
+        android:type="linear" />
+-->
+    <!-- Round Corners -->
+    <corners android:radius="6dp" />
+</shape>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pinnacle</string>
+    <string name="title_activity_main">Pinnacle</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutusheading">About Us</string>
+    <string name="contactusphone">+919729327755</string>
+    <string name="contectusemail">support@ssccglpinnacle.com</string>
+    <string name="contectuswebsite">https://ssccglpinnacle.com/</string>
+    <string-array name="header">
+        <item>Welcome Into The Ocean of Knowledge</item>
+        <item>Explore Your Skills</item>
+        <item>And Assure Your Success&#8230;</item>
+    </string-array>
+    <string name="quiz"><i>Which kind of waves are used to make and receive cellphone calls?</i></string>
+    <string name="contactus"><b>Pinnacle Coaching Institute,\nGurudwara Road,\nNear Sharda Hospital,\nModel Town, Hisar, Haryana 125005</b></string>
+    <string name="aboutus">Pinnacle coaching institute is founded by Baljit Dhaka and Neeru Madam in 2010 to provide high quality coaching to SSC CGL aspirants. To reach out plan,
+        Pinnacle entered into Online Coaching for SSC CGL Since from inception Pinnacle is no 1 online coaching institute for SSC CGL across India.
+        Having exposure and vast experience of corporate world by its founder directors Baljit Dhaka and Neeru madam,
+        organization expended very fast and launched 80+ products for SSC CGL. To streamline and develop operational efficiency products range was redefined to make affordable.\n
+    At present for SSC CGL Pinnacle have more than 2800+ videos. 1600+ E-booklets , 1000+ online tests, 500,000+ subscribers, 3000+ portal articles . 350,000 YouTube subscribers.\n
+    Pinnacle is the only institute in India which provide online coaching for SSC CGL tier 3 and Tier 4.\n
+    Pinnacle has developed specialized software for descriptive writing operation and skills test
+    Pinnacle is the only institute in India providing online coaching for all tiers i.e. tier 1, tier 2, tier 3 and tier 4\n
+    JobAssure is a famous brand of Pinnacle for tier 1, tier 2, tier 3 and tier 4 with videos solutions To handle relevant queries specially query box has been created for high value products.
+    Pinnacle works through its virtual employees system and employees are working across India.
+    Quality coaching at affordable price – Pinnacle is moving very fast.
+
+    </string>
+</resources>

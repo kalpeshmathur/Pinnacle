@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.pinnacle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Login"
+            android:label="Login"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".activities.Registration"
+            android:label="Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fragments.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SSCCourse"
+            android:label="SSC Course" />
+        <activity
+            android:name=".activities.PreviousPapers"
+            android:label="Previous Papers" />
+        <activity
+            android:name=".activities.StudyMaterial"
+            android:label="Study Material" />
+        <activity
+            android:name=".activities.MissionSSC"
+            android:label="Mission SSC" />
+        <activity
+            android:name=".activities.Purchase"
+            android:label="Purchase" />
+        <activity
+            android:name=".activities.DashBoard"
+            android:label="Dashboard" />
+        <activity
+            android:name=".activities.Tier_3"
+            android:label="Tier-3" />
+        <activity
+            android:name=".activities.JobAssure"
+            android:label="JobAssure" />
+        <activity
+            android:name=".activities.TestPortal"
+            android:label="Test Portal" />
+        <activity
+            android:name=".activities.AboutSSCCGL"
+            android:label="About SSC CGL" />
+        <activity
+            android:name=".activities.QuantitativeAptitude"
+            android:label="Quantitative Aptitude" />
+        <activity
+            android:name=".activities.English"
+            android:label="English" />
+        <activity
+            android:name=".activities.GeneralStudies"
+            android:label="General Studies" />
+        <activity
+            android:name=".activities.Grammar"
+            android:label="Grammar" />
+        <activity
+            android:name=".activities.PowerOfFive"
+            android:label="Power Of Five" />
+        <activity
+            android:name=".activities.SpotTheError"
+            android:label="Spot The Error"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Reasoning"
+            android:label="Reasoning" />
+        <activity
+            android:name=".activities.Blog"
+            android:label="Our Blog" />
+        <activity
+            android:name=".activities.QuantitativeAptitudeMaterial"
+            android:label="Quantitative Aptitude"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Video"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PDF"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Vocabulary"
+            android:label="Vocabulary" />
+        <activity
+            android:name=".activities.IdiomsAndPhrases"
+            android:label="Idioms And Phrases"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OneWordSubstitution"
+            android:label="One Word Substitution"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ActivePassiveVoice"
+            android:label="Active Passive Voice"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Narration"
+            android:label="Narration"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.CommonError"
+            android:label="Common Error"
+            android:parentActivityName=".activities.PowerOfFive"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ParaJumble"
+            android:label="Para Jumble"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ClozeTest"
+            android:label="Cloze Test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AAO"
+            android:label="Assistant Audit Officer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AAOMaterial"
+            android:label="Assistant Audit Officer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.VerbalReasoning"
+            android:label="Verbal Reasoning"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.NonVerbalReasoning"
+            android:label="Non Verbal Reasoning"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.JobAssureMaterial"
+            android:label="Job Assure"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.GeneralStudiesMaterial"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.BlogText"
+            android:parentActivityName=".activities.Blog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.Test"
+            android:screenOrientation="portrait"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>
