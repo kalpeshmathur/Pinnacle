@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import com.example.dell.pinnacle.R;
 
 public class AAO extends AppCompatActivity {
+
+//var declarations
     public static int day;
     private LinearLayout one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,ninteen,twenty,twenty_one,twenty_two,twenty_three,twenty_four,twenty_five,twenty_six;
     @Override
